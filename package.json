@@ -55,6 +55,7 @@
     "mongoose": "^7.0.0",
     "node-cache": "*",
     "node-fetch": "*",
+    "@whiskeysockets/baileys":"*",
     "node-os-utils": "^1.3.6",
     "perf_hooks": "^0.0.1",
     "performance-now": "^2.1.0",
