@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const handler = async (m, { text, usedPrefix, command }) => {
-  if (!text) throw `مثال : \n\n ${usedPrefix + command} الرباط`;
+  if (!text) throw `مثال : \n\n ${usedPrefix + command} صنعاء`;
   let res = await jadwalsholat(text);
   conn.reply(m.chat,
     `جدول الصلاة في ${text}
@@ -10,18 +10,18 @@ const handler = async (m, { text, usedPrefix, command }) => {
     الظهر : ${res.dhuhur}
     العصر : ${res.ashar}
     المغرب : ${res.maghrib}
-    العشاء : ${res.isya}\n\n\n\n\n\n\n\n instagram :@noureddine_ouafy`, m);
+    العشاء : ${res.isya}\n\n\n\n\n\n\n\n instagram :@ali_quteenah`, m);
 }
 
 handler.help = ['salaty'];
 handler.tags = ['infobot','tools'];
-handler.command = /^(salaty)$/i;
+handler.command = /^(صلاتي)$/i;
 
 export default handler;
 
 async function jadwalsholat(kota) {
   try {
-    let { data } = await axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${kota}&country=Morocco&method=8`);
+    let { data } = await axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${kota}&country=yemen&method=8`);
     let response = {
       subuh: data.data.timings.Fajr,
       dhuhur: data.data.timings.Dhuhr,
