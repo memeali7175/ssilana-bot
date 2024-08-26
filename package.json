@@ -75,7 +75,10 @@
     "node-gtts": "*",
     "ytdl-core":"*",
     "api-dylux":"*",
+    "buffer":"*",
+    "ruhend-scraper":"*",
     "aptoide-scraper":"*",
+    "canvas":"*",
     "@bochilteam/scraper-sosmed":"*",
     "@bochilteam/scraper":"*",
     "yargs": "^17.7.1"
