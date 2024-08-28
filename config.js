@@ -9,22 +9,22 @@ global.setting = {
  }
 
 global.owner = [
-['212717457920', 'Nour', true],
-['212605784394', 'silana', false],
+['966578700193', 'علي', true],
+['966558513424', 'meme', false],
 ['', '', false]
 ]
 
 global.info = {
- nomerbot: '212605784394',
- pairingNumber: '212693227969',
- nameown: 'Nour',
- nomerown: '212717457920',
- packname: 'sticker by ',
- author: 'Noureddine',
- namebot: 'ꜱɪʟᴀɴᴀ',
- wm: ''-'_꩜ 𝘚𝘪𝘭𝘢𝘯𝘢 𝘣𝘰𝘵 ꩜_'-'',
- stickpack: 'Whatsapp',
- stickauth: 'ꜱɪʟᴀɴᴀ ʙᴏᴛ '
+ nomerbot: '966558513424',
+ pairingNumber: '966578700193',
+ nameown: 'علي',
+ nomerown: '966578700193',
+ packname: '𝔞𝔩𝔦 𝔮𝔲𝔱𝔢𝔢𝔫𝔞𝔥 ',
+ author: '𝚊𝚕𝚒𝚚𝚞𝚝𝚎𝚎𝚗𝚊𝚑',
+ namebot:'𝚊𝚕𝚒',
+ wm: ''-'_꩜🄰🄻🄸🄱🄾🅃 ꩜_'-'',
+ stickpack: '🅀🅄🅃🄴🄴🄽🄰🄷',
+ stickauth: '𝚊𝚕𝚒𝚚𝚞𝚝𝚎𝚎𝚗𝚊𝚑 '
 }
 
 // Thumbnail 
@@ -46,17 +46,17 @@ global.media = {
 
 // Sosmed
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
- sgh:  'https://github.com/noureddineouafy',
- sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
+ sig: 'https://instagram.com/ali_quteenah',
+ sgh:  'https://github.com/aliquteenah',
+ sgc: 'https://whatsapp.com/channel/0029VaJWgziC6ZvfdIpx5922'
 }
 
-global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
+global.wait =` *إنتظر جاري تلبيـة طلبك📩* ...`
 
 // Info Wait
 global.msg = {
  wait: '⏱️ *Please be patient*\n\> Running command from *User*!',
- eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *Bobiza Bot*. There was an error in the system while executing the command.'
+ eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *aliqu Bot*. There was an error in the system while executing the command.'
 }
 
 global.multiplier = 69
